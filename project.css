@@ -108,13 +108,32 @@ img{
   
 }
 
+/* Your existing CSS here */
 
+/* Media Query for Tablets (Portrait and Landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  ul {
+      width: auto; /* Allow the list to expand to the available width */
+  }
 
+  li a {
+      width: auto; /* Let the anchor tags adjust their width */
+      padding: 8px 16px; /* Adjust the padding for better spacing */
+      text-align: left; /* Ensure text is left-aligned for readability */
+  }
+}
 
- 
+/* Media Query for Smartphones (Portrait and Landscape) */
+@media only screen and (max-width: 767px) {
+  ul {
+      width: 100%; /* Use full width on smaller screens */
+  }
 
-  
-    
-  
-    
+  li a {
+      width: 100%; /* Occupy the entire width for better visibility */
+      padding: 8px 16px; /* Adjust the padding for better spacing */
+      text-align: center; /* Center text for better readability */
+  }
+}
+
  
