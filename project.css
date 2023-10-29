@@ -20,7 +20,7 @@ ul {
         text-decoration: none;
       }
       
-      /* Change the link color on hover */
+   
       li a:hover {
         background-color: #5a4f4f;
         color: white;
@@ -32,7 +32,7 @@ ul {
         text-decoration: none;
       }
       
-      /* Change the link color on hover */
+   
       li a:hover {
         background-color: #538048;
         color: white;
@@ -104,6 +104,10 @@ img{
     width: 150px;
     height: 90px;
   }
+  .custom8{
+    width: 400px;
+    height: 250px;
+  }
 
 .ul-custom{
   display: flex;
@@ -116,7 +120,7 @@ img{
   position: fixed;
   top: 0;
   width: 100%;
-  height: 85px; /* Adjust the height as needed */
+  height: 85px; 
   background-color: rgb(15, 120, 29);
 }
 .tdd1{
@@ -138,5 +142,23 @@ button {
 button a {
   color: inherit;
   text-decoration: none;
+}
+
+
+.submenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 30;
+  left:125px; 
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+}
+
+
+li:hover .submenu {
+  display: block;
 }
 
