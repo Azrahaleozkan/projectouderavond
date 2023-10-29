@@ -119,4 +119,24 @@ img{
   height: 85px; /* Adjust the height as needed */
   background-color: rgb(15, 120, 29);
 }
+.tdd1{
+  width: 160px;
+  height: 50px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button a {
+  color: inherit;
+  text-decoration: none;
+}
 
